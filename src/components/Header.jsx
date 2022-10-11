@@ -42,7 +42,7 @@ const Header = () => {
                       </li>
                     </ul>
                     <Link
-                      to="/"
+                      to="/home"
                       aria-label="Company"
                       title="Company"
                       class="inline-flex items-center"
@@ -107,7 +107,7 @@ const Header = () => {
                             <div class="flex items-center justify-between mb-4">
                               <div>
                                 <Link
-                                  to="/"
+                                  to="/home"
                                   aria-label="Company"
                                   title="Company"
                                   class="inline-flex items-center"
