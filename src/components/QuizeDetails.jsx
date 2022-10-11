@@ -1,7 +1,7 @@
 import React from 'react';
 
-const QuizeDetails = ({quize}) => {
-    console.log(quize)
+const QuizeDetails = ({quize,handleAddToQuiz}) => {
+    
     const {id,logo,name,total}=quize
     return (
        
@@ -26,7 +26,7 @@ const QuizeDetails = ({quize}) => {
             </div>
           </div>
           <button
-        //   onClick={()=>handleAddToCart(product)}
+          onClick={()=>handleAddToQuiz(id)}
             className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-600 hover:bg-cyan-700 focus:shadow-outline focus:outline-none"
           >
             Click Here for Practice

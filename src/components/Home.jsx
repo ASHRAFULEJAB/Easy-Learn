@@ -1,11 +1,16 @@
 import React, { useContext } from 'react';
-import { Link} from 'react-router-dom';
+import { Link, Navigate, useNavigate} from 'react-router-dom';
 import QuizeDetails from './QuizeDetails';
-import { QuizContext } from './Roots';
+import { QuizContext, QuizIdContext } from './Roots';
 
 const Home = () => {
    const quizes = useContext(QuizContext)
-   console.log(quizes);
+   const quiz =useContext(QuizIdContext)
+   const navigate = useNavigate()
+   
+   const handleAddToQuiz=(id)=>{
+    navigate(`/quizes/${id}`)
+   }
     return (
        
               <div>
@@ -117,11 +122,15 @@ const Home = () => {
                 </div>
               </div>
               <div className=" mt-12 grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+                   
+                  
                   {
                     quizes.map(quize =><QuizeDetails
                     
                     key={quize.id}
-                        quize={quize}>
+                        quize={quize}
+                        handleAddToQuiz={handleAddToQuiz}
+                        >
 
                     </QuizeDetails>)
                   }

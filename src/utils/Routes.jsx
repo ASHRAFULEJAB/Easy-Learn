@@ -8,6 +8,7 @@ import Home from '../components/Home';
 import Quizes from '../components/Quizes';
 import Roots from '../components/Roots'
 import Statistics from '../components/Statistics';
+import { quizAndData } from '../loaders/getQuizData';
 
     const router = createBrowserRouter([
         {
@@ -25,8 +26,9 @@ import Statistics from '../components/Statistics';
               element:<Home></Home>
             },
             {
-              path:'/quizes',
-              element:<Quizes></Quizes>
+              path:'/quizes/:id',
+              element:<Quizes></Quizes>,
+              loader: quizAndData
             },
             {
               path:'/statistics',
