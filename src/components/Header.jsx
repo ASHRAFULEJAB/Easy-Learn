@@ -12,10 +12,10 @@ const Header = () => {
                     <ul class="flex items-center hidden space-x-8 lg:flex">
                       <li>
                         <NavLink
-                          to='/quizes'
+                          to='/quizes/:id'
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-300 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                         >
                           Quizes
                         </NavLink>
@@ -25,7 +25,7 @@ const Header = () => {
                           to="/statistics"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-300 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                         >
                           Statistics
                         </NavLink>
@@ -35,7 +35,7 @@ const Header = () => {
                           to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          class="font-medium tracking-wide text-gray-300 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                         >
                           Blog
                         </NavLink>
@@ -72,7 +72,7 @@ const Header = () => {
                           to="/about"
                           aria-label="About us"
                           title="About us"
-                          class="font-medium tracking-wide text-slate-100 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
                         >
                           About us
                         </NavLink>
