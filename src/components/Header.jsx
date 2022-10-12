@@ -6,7 +6,7 @@ const Header = () => {
             const [isMenuOpen, setIsMenuOpen] = useState(false);
           
             return (
-              <div class="bg-gray-900">
+              <div class="bg-gray-100 t-0 l-0">
                 <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                   <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
                     <ul class="flex items-center hidden space-x-8 lg:flex">
@@ -15,7 +15,7 @@ const Header = () => {
                           to='/'
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                          class="font-bold tracking-wide text-3xl text-gray-900 transition-colors duration-200 hover:text-teal-400"
                         >
                           Quizes
                         </NavLink>
@@ -25,7 +25,7 @@ const Header = () => {
                           to="/statistics"
                           aria-label="Our product"
                           title="Our product"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-400"
                         >
                           Statistics
                         </NavLink>
@@ -35,7 +35,7 @@ const Header = () => {
                           to="/blog"
                           aria-label="Product pricing"
                           title="Product pricing"
-                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                          class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-400"
                         >
                           Blog
                         </NavLink>
@@ -62,7 +62,7 @@ const Header = () => {
                         <rect x="14" y="1" width="7" height="6" />
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-200 uppercase">
+                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-900 uppercase">
                         Easy Learn
                       </span>
                     </Link>
