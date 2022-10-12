@@ -6,15 +6,15 @@ This project was build with Reactjs
 
 https://fastidious-belekoy-c633da.netlify.app/
 
-### In this project we have used React,React-router,Tailwind and kiUi frame Work.
+1.In this project we have used React,React-router,Tailwind and kiUi frame Work.
 
-## we have made a quiz app where there quiz select functionality,blog functionality  ,statistics functionality,Blog functionality.
+2.we have made a quiz app where there quiz select functionality,blog functionality  ,statistics functionality,Blog functionality.
 
-### We have select quiz,based on quiz we have bar chart and we have about section.
+3.We have select quiz,based on quiz we have bar chart and we have about section.
 
-### In Quiz section there will be a notification if anyone select wrong answer.
+4.In Quiz section there will be a notification if anyone select wrong answer.
 
-## About section we have About Easy learn activities.
+5.About section we have About Easy learn activities.
 
                 ### ### ### ### ### ### 
 
