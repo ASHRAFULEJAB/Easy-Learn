@@ -13,6 +13,9 @@ const Header = () => {
                       <li>
                         <NavLink
                           to='/'
+                          className={({ isActive }) =>
+                          isActive ? 'bg-gray-900 font-bold text-3xl text-white p-3 rounded-lg' : 'bg-gray-500 p-3 font-bold text-3xl text-white rounded-lg'
+                                                  }
                           aria-label="Our product"
                           title="Our product"
                           class="font-bold tracking-wide text-3xl text-gray-900 transition-colors duration-200 hover:text-teal-400"
@@ -23,6 +26,9 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/statistics"
+                          className={({ isActive }) =>
+                          isActive ? 'bg-gray-900 font-bold text-3xl text-white p-3 rounded-lg' : 'bg-gray-500 p-3 font-bold text-3xl text-white rounded-lg'
+                                                  }
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-400"
@@ -33,6 +39,9 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/blog"
+                          className={({ isActive }) =>
+                          isActive ? 'bg-gray-900 font-bold text-3xl text-white p-3 rounded-lg' : 'bg-gray-500 p-3 font-bold text-3xl text-white rounded-lg'
+                                                  }
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-teal-400"
@@ -48,7 +57,7 @@ const Header = () => {
                       class="inline-flex items-center"
                     >
                       <svg
-                        class="w-8 text-teal-400"
+                        class="w-10 text-teal-400"
                         viewBox="0 0 24 24"
                         strokeLinejoin="round"
                         strokeWidth="2"
@@ -62,7 +71,7 @@ const Header = () => {
                         <rect x="14" y="1" width="7" height="6" />
                         <rect x="14" y="11" width="7" height="12" />
                       </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-900 uppercase">
+                      <span class="ml-2 text-3xl font-bold tracking-wide text-gray-900 uppercase">
                         Easy Learn
                       </span>
                     </Link>
@@ -70,6 +79,9 @@ const Header = () => {
                       <li>
                         <NavLink
                           to="/about"
+                          className={({ isActive }) =>
+                                isActive ? 'bg-gray-900 font-bold text-3xl text-white p-3 rounded-lg' : 'bg-gray-500 p-3 font-bold text-3xl text-white rounded-lg'
+                                                  }
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"

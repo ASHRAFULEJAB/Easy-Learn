@@ -5,10 +5,6 @@ import SingleQuiz from './SingleQuiz';
 const Quizes = () => {
     const singleQuiz = useLoaderData()
     const{name,questions}=singleQuiz.data
-    // console.log(singleQuiz.data);
-    // for(const q of questions ){
-    //     console.log(q)
-    // }
     return (
         
        

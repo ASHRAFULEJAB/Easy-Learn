@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { QuizContext } from './Roots';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const StatisticsDetails = () => {
     const quizes=useContext(QuizContext)

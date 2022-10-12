@@ -1,11 +1,10 @@
 import React, { useContext } from 'react';
-import { Link, Navigate, useNavigate} from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import QuizeDetails from './QuizeDetails';
-import { QuizContext, QuizIdContext } from './Roots';
+import { QuizContext} from './Roots';
 
 const Home = () => {
    const quizes = useContext(QuizContext)
-   const quiz =useContext(QuizIdContext)
    const navigate = useNavigate()
    
    const handleAddToQuiz=(id)=>{
