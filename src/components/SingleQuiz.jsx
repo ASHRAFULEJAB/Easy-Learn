@@ -29,7 +29,7 @@ const SingleQuiz = ({question}) => {
         <div>
             <div className=" bg-gray-200 grid gap-2 mx-auto lg:grid-cols-2 lg:max-w-screen-lg border p-5 border-gray-900 m-4 shadow-lg rounded-lg">
                   <div className=" sm:grid-cols-3">
-                   {/* <h1 className='text-center'>Quiz:{question.findIndex}</h1> */}
+                  
                     <div className=" justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
                       <p className="text-lg font-bold text-center">Quiz:{abc.slice(3,-4)}</p>
                     <div className='flex items-center  justify-center'>
