@@ -4,7 +4,7 @@ This project was build with Reactjs
 
 ## Live Link
 
-In the project directory, you can run:
+https://fastidious-belekoy-c633da.netlify.app/
 
 ### In this project we have used React,React-router,Tailwind and kiUi frame Work.
 
