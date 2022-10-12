@@ -7,7 +7,7 @@ import ErrorPage from '../components/ErrorPage';
 import Home from '../components/Home';
 import Quizes from '../components/Quizes';
 import Roots from '../components/Roots'
-import Statistics from '../components/Statistics';
+import StatisticsDetails from '../components/StatisticsDetails';
 import { quizAndData } from '../loaders/getQuizData';
 
     const router = createBrowserRouter([
@@ -32,7 +32,7 @@ import { quizAndData } from '../loaders/getQuizData';
             },
             {
               path:'/statistics',
-              element:<Statistics></Statistics>
+              element:<StatisticsDetails></StatisticsDetails>
             },
             {
               path:'/blog',
