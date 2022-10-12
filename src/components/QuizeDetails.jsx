@@ -15,14 +15,14 @@ const QuizeDetails = ({quize,handleAddToQuiz}) => {
         </div>
         <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
           <div>
-            <div className="text-lg font-semibold"></div>
+            <div className="text-lg font-bold"></div>
             <p className="text-sm text-gray-900">
-              {/* {description.slice(0,65)} */}
+              
               {name}
             </p>
             <div className="mt-1 mb-4 mr-1 text-4xl font-bold sm:text-5xl">
-              {/* ${price} */}
-              {total}
+              
+              Total Question:{total}
             </div>
           </div>
           <button

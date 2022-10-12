@@ -19,7 +19,7 @@ const Quizes = () => {
                     
                 
                   </p>
-                  <p className="text-base text-gray-700 md:text-lg">
+                  <p className="text-base text-gray-700 md:text-2xl font-bold">
                     Quiz:{questions.length}
                   </p>
                 </div>
